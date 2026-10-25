@@ -29,3 +29,8 @@ while attempts < max_attempts:
 
     remaining = max_attempts -  attempts
     print(f"You have {remaining} guesses left!")
+
+else:
+    if max_attempts > 0:
+        print("GAME OVER! You have run out of guesses.")
+        print(f"The correct number was {hidden_number}.")
